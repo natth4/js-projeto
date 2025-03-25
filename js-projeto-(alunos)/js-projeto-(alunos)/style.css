@@ -13,10 +13,10 @@
   font-size: 62.5%;
 
   --bg-color: #000000;
-  --second-bg-color: #C94C16;
+  --second-bg-color: #021b7e;
   --text-color: #ffffff;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 0.5);
+  --second-text-color: #5367b5;
+  --card-bg-color: #1f325b;
 
   --first-font: 'Lato', sans-serif;
   --second-font: 'Inter', sans-serif;
@@ -28,7 +28,7 @@
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(3, 0, 0, 0.308);
   
-  --bg-image-home: url("./img/bg-home-dark-3.jpg");
+  --bg-image-home: url("./img/fundo-esc-inicio.jpg");
   --position-bg-home: 15rem -7rem;
   --logo-github: url("./img/logo-github-white.svg");
   --logo-github-hover: url("./img/logo-github-orange.svg");
@@ -37,20 +37,20 @@
   
   --button-text-color-hover: #FFFFFF;
 
-  --bg-contact: url("./img/bg-contact-dark.png");
+  --bg-contact: url("./img/fundo-contato.png");
   --border-form: none;
   --bg-form: rgba(24, 24, 24, 0.726);
 
-  --color-social-media: #FFFFFF;
+  --color-social-media: #7e81cc;
 }
 
 .light {
   --bg-color: #ffffff;
-  --second-bg-color: #C94C16;
+  --second-bg-color: #bb6be0;
   
   --text-color: #000000;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 1);
+  --second-text-color: #61357e;
+  --card-bg-color: #bb6be0;
 
   --highlight-color: rgba(0, 0, 0, 0.25);
   --switch-bg-url: url("./img/sun.svg");
@@ -68,11 +68,11 @@
 
   --button-text-color-hover: #000000;
 
-  --bg-contact: url("./img/bg-contact-white.png");
-  --border-form: 2px solid hsla(18, 80%, 44%, 1);
+  --bg-contact: url("./img/fundo\ contato.png");
+  --border-form: 2px solid rgb(255, 255, 255);
   --bg-form: rgba(255, 255, 255, 0.726);
 
-  --color-social-media: #C94C16;
+  --color-social-media: #a789ba;
 }
 
 body {
@@ -234,7 +234,7 @@ section {
 }
 
 .home .home-mac {
-  width: 40%;
+  width: 33%;
   position: absolute;
   z-index: -2;
   right: 5rem;
@@ -430,6 +430,7 @@ img.balls {
   position: absolute;
   bottom: -6rem;
   right: 5rem;
+  width: 220px;
 }
 
 /* ------------ skills ------------------ */
@@ -442,7 +443,7 @@ img.balls {
 }
 
 .line {
-  border: 2px #FF4D00 solid;
+  border: 2px #ffffff solid;
   width: 17rem;
   margin-bottom: 1rem;
 }
@@ -498,7 +499,7 @@ img.balls {
 
 .card:hover {
   cursor: pointer;
-  background-color: #FF4D00;
+  background-color: #232139;
   transform: translateY(-10px);
 }
 
@@ -573,6 +574,7 @@ img.balls {
 
 .row img {
   width: 100%;
+  height: 250px;
   border-radius: 8px;
   display: block;
   transition: transform 0.5s;
@@ -1072,3 +1074,4 @@ form textarea {
     width: 90%;
   }
 }
+
